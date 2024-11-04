@@ -1,0 +1,13 @@
+#ggmsa
+if(!require("Biocmanager",quietly = TRUE))
+  
+BiocManager::install.packages("ggmsa")
+install.packages("Rtools")
+
+library("ggplot2")
+numeros<-sample(1:10)
+ggplot(geom_bar())
+
+library()
+
+plot(ChickWeight)

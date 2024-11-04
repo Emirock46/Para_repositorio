@@ -1,0 +1,44 @@
+#funciones, apartir del archivo generar 10 excusas
+excusas<-function(x){
+  for(num_excusas in 1:10){
+    exc1<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,1],1))
+    exc2<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,2],1))
+    exc3<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,3],1))
+    print(paste(exc1,exc2,exc3))
+  }
+}
+excusas(si)
+
+excusas2<-function(x){
+  for(num_excusas2 in 1:10){
+    exc4<-paste(sample(read.csv("C:/Users/emiro/Downloads/Lista de excusas 2024 - Hoja 1.csv") [1:33,1],1))
+    exc5<-paste(sample(read.csv("C:/Users/emiro/Downloads/Lista de excusas 2024 - Hoja 1.csv")[1:33,2],1))
+    exc6<-paste(sample(read.csv("C:/Users/emiro/Downloads/Lista de excusas 2024 - Hoja 1.csv") [1:33,3],1))
+    print(paste(exc4,exc5,exc6))
+  }
+}
+excusas2(si)
+
+#estas fueron los bocetos antes de meterlas a la funcion
+paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,1],1))
+paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,2],1))
+paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,3],1))
+
+for(num_excusas in 1:10){
+  exc1<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,1],1))
+ exc2<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,2],1))
+ exc3<-paste(sample(Lista.de.excusas.2024...Hoja.1 [1:33,3],1))
+ print(paste(exc1,exc2,exc3))
+}
+paste(exc1,exc2,exc3)
+
+for(multiplicar in 1:10){
+  print(paste(multiplicar*x))
+}
+
+tablita_multiplicar<-function(x){
+  for(multiplicar in 1:10){
+    print(paste(multiplicar*x))
+  }
+}
+tablita_multiplicar(8)
